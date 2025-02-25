@@ -18,3 +18,8 @@ jobs:
 
       - name: Time Counter
         run: python time.py
+
+     
+      - name: Keep the GitHub Action Runner Alive
+        run: |
+          Start-Sleep -Seconds 59000  # Adjust the duration based on your needs
